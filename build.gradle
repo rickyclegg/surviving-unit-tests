@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'com.adarshr.test-logger' version '4.0.0'
+}
+
+dependencies {
+    // JUnit 4 framework for unit tests
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+testlogger {
+    theme 'standard'
+    showExceptions true
+    showStackTraces true
+    showFullStackTraces false
+    showCauses true
+    slowThreshold 2000
+    showSummary true
+    showSimpleNames false
+    showPassed true
+    showSkipped true
+    showFailed true
+    showOnlySlow false
+    showStandardStreams false
+    showPassedStandardStreams true
+    showSkippedStandardStreams true
+    showFailedStandardStreams true
+    logLevel 'lifecycle'
+}
+
+test {
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true // Outputs standard out and error from your tests to the console
+    }
+
+    useJUnitPlatform()
+}
