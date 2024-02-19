@@ -11,3 +11,4 @@ The repository contains a presentation that you can find [here](https://docs.goo
 ### Branches
 
 - `main`: The root of the repo. Paired with Slide 11. I has some basic unit tests as a simple example.
+- `get-by`: Paired with Slide 18. This is for writing some unit tests.
