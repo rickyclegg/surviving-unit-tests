@@ -10,5 +10,6 @@ The repository contains a presentation that you can find [here](https://docs.goo
 
 ### Branches
 
-- `main`: The root of the repo. Paired with Slide 11. I has some basic unit tests as a simple example.
+- `main`: Paired with Slide 11. It has some basic unit tests as a simple example.
 - `get-by`: Paired with Slide 18. This is for writing some unit tests.
+- `tdd`: Paired with Slide 27. This is for a test first approach to Pokédex.
