@@ -14,6 +14,7 @@ The repository contains a presentation that you can find [here](https://docs.goo
 - `api`: Paired with Slide 17. This is to demonstrate bad practices.
 - `get-by`: Paired with Slide 19. This is for writing some unit tests.
 - `tdd`: Paired with Slide 29. This is for a test first approach to Pokédex.
+- `pingpong`: Paired with Slide 31. This is for Ping-Pong Pairing.
 
 ### How to run
 
