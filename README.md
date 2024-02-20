@@ -14,3 +14,13 @@ The repository contains a presentation that you can find [here](https://docs.goo
 - `api`: Paired with Slide 17. This is to demonstrate bad practices.
 - `get-by`: Paired with Slide 19. This is for writing some unit tests.
 - `tdd`: Paired with Slide 29. This is for a test first approach to Pokédex.
+
+### How to run
+
+```shell
+git clone git@github.com:rickyclegg/surviving-unit-tests.git
+cd surviving-unit-tests
+./gradlew --refresh-dependencies
+./gradlew build
+./gradlew test
+```
